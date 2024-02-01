@@ -13,8 +13,8 @@ import { HeaderComponent, MenuComponent, Menu } from 'shared-ui';
 export class AppComponent {
   title = 'my-app';
   menu: Menu = [
-    { title: "page 1", link: 'aa' },
-    { title: "page 2", link: 'aa' },
-    { title: "page 3", link: 'aa' }
+    { title: "page 1", link: '/home' },
+    { title: "page 2", link: '/form' },
+    { title: "page 3", link: '' }
   ];
 }
