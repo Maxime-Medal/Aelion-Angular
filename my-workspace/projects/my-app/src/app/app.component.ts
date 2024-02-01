@@ -6,10 +6,7 @@ import { HeaderComponent, MenuComponent, Menu } from 'shared-ui';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,
-    MyLibComponent,
-    HeaderComponent,
-    MenuComponent],
+  imports: [RouterOutlet, MyLibComponent, HeaderComponent, MenuComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
