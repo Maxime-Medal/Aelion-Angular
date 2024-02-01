@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <p>
-      my-lib works!
+      Est tu là ??
     </p>
   `,
   styles: ``

@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MenuComponent } from '../../public-api';
+import { MenuComponent } from '../../../public-api';
 
 @Component({
   selector: 'lib-header',
