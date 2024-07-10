@@ -7,3 +7,4 @@ export * from './lib/auth.component';
 export * from './lib/components/login-form/login-form.component';
 
 export * from './lib/models/user'
+export * from './lib/pages/home/home.component'

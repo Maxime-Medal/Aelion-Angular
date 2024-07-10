@@ -6,3 +6,7 @@
       margin-right: 1rem;
     }
   }
+
+  .active{
+    color: red;
+  }

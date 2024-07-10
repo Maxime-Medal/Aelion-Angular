@@ -1,5 +1,5 @@
 <ul class="menu" #ul>
     @for (item of menu; track item){
-    <li> <a href={{item.link}}>{{item.title}}</a></li>
+    <li> <a routerLink="'/home'" routerLinkActive="router-link-active">{{item.title}}</a></li>
     }
 </ul>
